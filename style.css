@@ -19,8 +19,8 @@ body{
 }
 .first{
 	max-width: 800px;
-	margin: 80px auto;
-	height: 400px;
+	margin: 30px auto;
+	height: 300px;
 	background: lightsteelblue;
 }
 .sec{
@@ -28,6 +28,12 @@ body{
 	margin: auto;
 	height: 300px;
 	background: thistle;
+}
+.mesame {
+	width: 300px;
+	height: 300px;
+	margin: 30px auto ;
+	background-color: wheat;	
 }
 @media screen and (max-width: 800px){
 	.first{
