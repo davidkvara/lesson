@@ -13,6 +13,7 @@ body{
 	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
 	grid-gap:20px;
 	width: 90%;
+	margin: auto;
 }
 .box{
 	color: #fff;
@@ -34,6 +35,6 @@ body{
 	background: mediumslateblue;
 }
 .fou{
-	background: seashell;
+	background: slategray;
 }
 
