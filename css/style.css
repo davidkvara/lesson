@@ -8,38 +8,32 @@ body{
   font-family: sans-serif;
   color: #777;
 }
-
+.container{
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+	grid-gap:20px;
+	width: 90%;
+}
 .box{
 	color: #fff;
+
 	display: flex;
+	height: 300px;	
 	justify-content: center;
 	align-items: center;
 	font-size: 25px;
 	box-shadow: 7px 8px 5px #999;
 }
 .first{
-	max-width: 800px;
-	margin: 30px auto;
-	height: 300px;
 	background: lightsteelblue;
 }
 .sec{
-	max-width: 600px;
-	margin: auto;
-	height: 300px;
-	background: thistle;
-	/*background-color: wheat;*/
+	background: wheat;
 }
-@media screen and (max-width: 800px){
-	.first{
-		width: 90%;
-	}
-	.sec{
-		width: 90%;
-	}
+.tre{
+	background: mediumslateblue;
 }
-@media screen and (max-width: 600px){
-	.sec{
-		width: 80%;
-	}
+.fou{
+	background: seashell;
 }
+
