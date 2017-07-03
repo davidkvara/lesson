@@ -13,28 +13,28 @@ body{
 	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
 	grid-gap:20px;
 	width: 90%;
-	margin: auto;
+	margin:70px auto;
 }
 .box{
-	color: #fff;
-
+	color: #36486b;
 	display: flex;
-	height: 300px;	
+	text-transform: capitalize;
+	height: 270px;	
 	justify-content: center;
 	align-items: center;
 	font-size: 25px;
-	box-shadow: 7px 8px 5px #999;
+	border: 4px solid azure;
 }
 .first{
-	background: lightsteelblue;
+	background: #d5f4e6;
 }
 .sec{
-	background: wheat;
+	background: #80ced6;
 }
 .tre{
-	background: mediumslateblue;
+	background: #fefbd8;
 }
 .fou{
-	background: slategray;
+	background: #618685;
 }
 
